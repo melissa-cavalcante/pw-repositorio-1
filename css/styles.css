@@ -84,3 +84,157 @@ div>p{
 .none-element{
     display: none;
 }
+
+.static-box{
+    position: static;
+    background-color: aquamarine;
+    width: 300px;
+    height: 150px;
+    border: 1px solid;
+
+}
+
+.relative-box{
+    position: relative;
+    background-color: rgb(8, 133, 91);
+    width: 300px;
+    height: 150px;
+    border: 1px solid;
+    top: 10px;
+    left: 150px;
+}
+.fixed-box{
+    position:fixed;
+    background-color: rgb(5, 70, 48);
+    width: 300px;
+    height: 150px;
+    border: 1px solid;
+    top: 200px;
+    left: 100px;
+}
+
+.parent{
+    position: relative;
+}
+
+.absolute-box1{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    border: 1px solid;
+    top: 10px;
+    background-color: aqua;
+}
+.f-h-start{
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    width: 25vw;
+    background-color: blue;
+    margin-top: 10px;
+
+}
+.f-h-center{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+}
+.f-h-end{
+    display: flex;
+    justify-content: end;
+    height: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+}
+.f-h-arround{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+}
+.f-h-between{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+}
+span{
+    background-color: antiquewhite;
+    font-size: 18px;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+.f-v-start{
+    display: flex;
+    height: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+    align-items: start;
+}
+.f-v-center{
+    display: flex;
+    height: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+    align-items: center;
+}
+.f-v-end{
+    display: flex;
+    height: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+    align-items: end;
+}
+.f-v-stretch{
+    display: flex;
+    height: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+    align-items: stretch;
+}
+
+.f-h-start-col{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    height: 125px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+ 
+}
+.f-h-end-col{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    height: 125px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+ 
+}
+.f-h-center-col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 125px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 25vw;
+ 
+}
+
